@@ -1,23 +1,36 @@
-* {
+/* {
   border: 1px solid #000;
 }
-
+*/
 @font-face {
+  src: url('./font/Inter-Regular.woff2') format('woff2'),
+  src: url('./font/Inter-Regular.woff') format('woff'),
+  src: url('./font/Inter-Regular.ttf') format('ttf');
+  src: url('./font/Inter-Regular.otf') format('otf');
   font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-}
-
-@font-face {
+  src: url('./font/Inter-Bold.woff2') format('woff2'),
+  src: url('./font/Inter-Bold.woff') format('woff'),
+  src: url('./font/Inter-Bold.ttf') format('ttf');
+  src: url('./font/Inter-Bold.otf') format('otf');
   font-family: 'Inter';
   font-style: normal;
   font-weight: bold;
+}
+
+@font-face {
+  src: url('./font/Inter-ExtraBold.woff2') format('woff2'),
+  src: url('./font/Inter-ExtraBold.woff') format('woff'),
+  src: url('./font/Inter-ExtraBold.ttf') format('ttf');
+  src: url('./font/Inter-ExtraBold.otf') format('otf');
+  src: url('./fonts.15/Inter')
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
 }
 
 .page {
@@ -26,13 +39,12 @@
   padding: 28px 48px 24px;
   box-sizing: border-box;
   font-family: 'Inter',  'Arial', sans-serif;
-  /*
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;*/
+  text-rendering: optimizeLegibility;
 }
 
 .header {
@@ -66,6 +78,10 @@
 */
 .header__lang-link {
   color: #fff;
+}
+
+.header__lang-link:last-child {
+  text-decoration: none;
 }
 
 .lead {
@@ -285,7 +301,6 @@
   width: 100%;
 /*  padding-top: 245px;
   padding-bottom: 245px;*/
-  text-align: center;
   background-image: url(./images/cover-trains.jpg);
   background-size: cover;
   background-position: 0 0;
@@ -294,10 +309,22 @@
 .cover__link {
   width: 100%;
   min-height: 100%;
+}
+
+.cover__overlay {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+}
+
+.cover__overlay:hover {
+  opacity: 0.8;
 }
 
 .cover__title {
@@ -312,7 +339,7 @@
 }
 
 .cover__subtitle {
-  width: 360px;
+  max-width: 360px;
   margin-top: 0;
   margin-bottom: 245px;
   font-size: 18px;
@@ -320,22 +347,6 @@
   font-weight: normal;
   font-style: normal;
   color: #fff;
-}
-
-.cover__overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #2a2c2f;
-  opacity: 0.3;
-  top: 0;
-  left: 0;
-  border: 5px dashed blue;
-}
-
-.red {
-  background: rgb(202, 33, 33);
-  border: 2px dashed #888;
 }
 
 .cover__background {
