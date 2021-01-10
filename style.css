@@ -1,33 +1,28 @@
-* {
-  border: 1px solid #000;
-}
-
 @font-face {
-  src: url('./font/Inter-Regular.woff2') format('woff2'),
-  src: url('./font/Inter-Regular.woff') format('woff'),
-  src: url('./font/Inter-Regular.ttf') format('ttf');
-  src: url('./font/Inter-Regular.otf') format('otf');
+  src: url('./vendor/font/Inter-Regular.woff2') format('woff2'),
+  src: url('./vendor/font/Inter-Regular.woff') format('woff'),
+  src: url('./vendor/font/Inter-Regular.ttf') format('ttf');
+  src: url('./vendor/font/Inter-Regular.otf') format('otf');
   font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  src: url('./font/Inter-Bold.woff2') format('woff2'),
-  src: url('./font/Inter-Bold.woff') format('woff'),
-  src: url('./font/Inter-Bold.ttf') format('ttf');
-  src: url('./font/Inter-Bold.otf') format('otf');
+  src: url('./vendor/font/Inter-Bold.woff2') format('woff2'),
+  src: url('./vendor/font/Inter-Bold.woff') format('woff'),
+  src: url('./vendor/font/Inter-Bold.ttf') format('ttf');
+  src: url('./vendor/font/Inter-Bold.otf') format('otf');
   font-family: 'Inter';
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
-  src: url('./font/Inter-ExtraBold.woff2') format('woff2'),
-  src: url('./font/Inter-ExtraBold.woff') format('woff'),
-  src: url('./font/Inter-ExtraBold.ttf') format('ttf');
-  src: url('./font/Inter-ExtraBold.otf') format('otf');
-  src: url('./fonts.15/Inter')
+  src: url('./vendor/font/Inter-ExtraBold.woff2') format('woff2'),
+  src: url('./vendor/font/Inter-ExtraBold.woff') format('woff'),
+  src: url('./vendor/font/Inter-ExtraBold.ttf') format('ttf');
+  src: url('./vendor/font/Inter-ExtraBold.otf') format('otf');
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
@@ -233,8 +228,7 @@
   top: 89px;
 }
 */
-.kalegin {
-}
+
 .lead__caption {
   max-width: 158px;
   margin-top: 8px;
@@ -544,7 +538,7 @@
   }
 }
 
-.pharagraph {
+.place__pharagraph {
   width: 100%;
   margin-top: 0;
   margin-bottom: 27px;
@@ -556,19 +550,19 @@
 /*  grid-area: pharagraph;  */
 }
 
-.pharagraph:last-child {
+.place__pharagraph:last-child {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: 1279px) {
-  .pharagraph {
+  .place__pharagraph {
     margin-bottom: 26px;
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .pharagraph {
+  .place__pharagraph {
     margin-bottom: 25px;
   }
 }
@@ -611,6 +605,7 @@
 .cover__link {
   width: 100%;
   min-height: 100%;
+  text-decoration: none;
 }
 
 .cover__overlay {
@@ -756,6 +751,7 @@
 */
 .footer__row-link {
   color: #fff;
+  text-decoration: none;
 }
 
 .footer__copyright {
