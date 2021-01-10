@@ -1,17 +1,17 @@
 @font-face {
+  src: url("./Inter-Regular.woff2") format("woff2"),
+  src: url("./Inter-Regular.woff") format("woff"),
+  src: url("./Inter-Regular.ttf") format("ttf");
+  src: url("./Inter-Regular.otf") format("otf");
   font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
-  src: url("./Inter-Regular.woff2") format("woff2"),
-  src: url("./Inter-Regular.woff") format("woff"),
-  src: url("./Inter-Regular.ttf") format("ttf"),
-  src: url("./Inter-Regular.otf") format("otf");
 }
 
 @font-face {
   src: url("./Inter-Bold.woff2") format("woff2"),
   src: url("./Inter-Bold.woff") format("woff"),
-  src: url("./Inter-Bold.ttf") format("ttf"),
+  src: url("./Inter-Bold.ttf") format("ttf");
   src: url("./Inter-Bold.otf") format("otf");
   font-family: 'Inter';
   font-style: normal;
@@ -21,7 +21,7 @@
 @font-face {
   src: url("./Inter-ExtraBold.woff2") format("woff2"),
   src: url("./Inter-ExtraBold.woff") format("woff"),
-  src: url("./Inter-ExtraBold.ttf") format("ttf"),
+  src: url("./Inter-ExtraBold.ttf") format("ttf");
   src: url("./Inter-ExtraBold.otf") format("otf");
   font-family: 'Inter';
   font-style: normal;
