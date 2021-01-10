@@ -1,0 +1,12 @@
+.place__list-pharagraphs {
+  max-width: 102.542%;
+}
+
+@media screen and (max-width: 767px) {
+  .place__list-pharagraphs {
+    max-width: calc(100% - 16px*2);
+    position: relative;
+    left: 16px;
+    order: 2;
+  }
+}
