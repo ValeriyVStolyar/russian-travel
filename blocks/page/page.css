@@ -10,35 +10,34 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  border: 1px solid yellow;
+}
+
+@media screen and (min-width: 1280px) {
+  .page {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 1279px) {
   .page {
-    min-width: 1023px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .page {
-    min-width: 767px;
     padding: 28px 24px 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .page {
-    min-width: 425px;
     padding: 16px 16px 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .page {
-    min-width: 320px;
     padding: 16px 16px 24px;
   }
 }
-* {
-  outline: 1px solid red;
-  }
