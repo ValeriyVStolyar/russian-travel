@@ -24,6 +24,7 @@
   }
 }
 
+
 @media screen and (max-width: 767px) {
   .cover {
     width: calc(100% + 16px*2);
