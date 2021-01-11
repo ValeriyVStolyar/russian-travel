@@ -1,6 +1,6 @@
 .page {
   background: #2a2c2f;
-  min-width: 1280px;
+  min-width: 320px;
   padding: 28px 48px 24px;
   box-sizing: border-box;
   font-family: 'Inter',  'Arial', sans-serif;
@@ -10,6 +10,7 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  border: 1px solid yellow;
 }
 
 @media screen and (max-width: 1279px) {
@@ -38,3 +39,6 @@
     padding: 16px 16px 24px;
   }
 }
+* {
+  outline: 1px solid red;
+  }
