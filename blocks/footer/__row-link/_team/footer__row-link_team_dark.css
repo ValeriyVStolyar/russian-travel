@@ -1,0 +1,7 @@
+.footer__row-link_team_dark {
+  transition: opacity 2s ease-out .01s;
+}
+
+.footer__row-link_team_dark:hover {
+  opacity: .8;
+}

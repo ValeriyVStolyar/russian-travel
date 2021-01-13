@@ -1,15 +1,12 @@
 .place__website {
-  width: 94.2%;
-  min-height: 46px;
+  max-width: 100%;
   align-self: end;
-/*  grid-area: place__website;  */
 }
 
 @media screen and (max-width: 767px) {
   .place__website {
-    max-width: calc(100% - 16px*2);
-    position: relative;
-    left: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
     order: -1;
   }
 }

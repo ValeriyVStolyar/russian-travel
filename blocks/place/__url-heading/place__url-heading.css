@@ -6,8 +6,9 @@
   line-height: 1.7;
   font-weight: normal;
   font-style: normal;
-  letter-spacing: 1.67px;
+  letter-spacing: .2em;
   color: #aaa;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1023px) {

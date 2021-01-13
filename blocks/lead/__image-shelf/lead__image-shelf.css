@@ -1,9 +1,8 @@
 .lead__image-shelf {
-  background-image: url(../../../images/lead-polka.png);
-  background-size: cover;
-  background-position: center;
   width: 100%;
   min-height: 615px;
+  object-position: 0 0;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1279px) {
