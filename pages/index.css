@@ -8,7 +8,6 @@
 @import url(../blocks/header/__list-item/header__list-item.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
-@import url(../blocks/header/__lang-link/_team/header__lang-link_team_dark.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
@@ -20,7 +19,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__column-items/intro__column-items.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_font_normal/intro__list_font_normal.css);
+@import url(../blocks/intro/__numbers/\ intro__numbers.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/places/places.css);
@@ -30,13 +29,11 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__link/_team/place__link_team_dark.css);
 @import url(../blocks/place/__list-pharagraphs/place__list-pharagraphs.css);
 @import url(../blocks/place/__pharagraph/place__pharagraph.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__overlay/_team/cover__overlay_team_dark.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css);
@@ -44,5 +41,4 @@
 @import url(../blocks/footer/__row-links/footer__row-links.css);
 @import url(../blocks/footer/__list-item/footer__list-item.css);
 @import url(../blocks/footer/__row-link/footer__row-link.css);
-@import url(../blocks/footer/__row-link/_team/footer__row-link_team_dark.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

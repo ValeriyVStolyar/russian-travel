@@ -1,4 +1,9 @@
 .footer__row-link {
   color: #fff;
   text-decoration: none;
+  transition: opacity 2s ease-out .01s;
+}
+
+.footer__row-link:hover {
+  opacity: 0.8;
 }
