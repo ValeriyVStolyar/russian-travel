@@ -1,7 +1,5 @@
 .header__lang-links {
-  transition: opacity 2s ease-out .01s;
+
 }
 
-.header__lang-links:hover {
-  opacity: .8;
-}
+
